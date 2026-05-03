@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PayOff</string>
+    <string name="tagline">Pay offline. Always.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Welcome to PayOff</string>
+    <string name="onboarding_subtitle">Offline UPI payments via *99#</string>
+    <string name="step_language">Choose Language</string>
+    <string name="step_bank">Select Your Bank</string>
+    <string name="step_account">Link Account</string>
+    <string name="step_applock">Set App Lock</string>
+    <string name="step_done">You\'re all set!</string>
+    <string name="search_bank_hint">Search bank name…</string>
+    <string name="last6_hint">Last 6 digits of debit card</string>
+    <string name="expiry_hint">Expiry (MM/YY)</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_get_started">Get Started</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">Enter App PIN</string>
+    <string name="applock_biometric_prompt">Unlock PayOff</string>
+    <string name="applock_biometric_subtitle">Use fingerprint or face to open the app</string>
+    <string name="applock_set_title">Create a 4-digit App PIN</string>
+    <string name="applock_confirm_title">Confirm your App PIN</string>
+    <string name="applock_mismatch">PINs don\'t match. Try again.</string>
+
+    <!-- Home -->
+    <string name="home_offline_badge">Offline Mode • *99# USSD</string>
+    <string name="home_recent_transactions">Recent Transactions</string>
+    <string name="home_no_transactions">No transactions yet</string>
+    <string name="home_send_money">Send Money</string>
+    <string name="home_view_all">View all</string>
+    <string name="home_monthly_charge">USSD charges this month</string>
+
+    <!-- Contact Picker -->
+    <string name="contact_picker_title">Send To</string>
+    <string name="contact_search_hint">Name, UPI ID or mobile…</string>
+    <string name="contact_favourites">Favourites</string>
+    <string name="contact_all">All Contacts</string>
+    <string name="contact_enter_upi">Enter UPI ID manually</string>
+    <string name="contact_enter_mobile">Enter mobile number</string>
+    <string name="contact_add_new">Add New Contact</string>
+    <string name="contact_no_results">No contacts found</string>
+
+    <!-- Amount -->
+    <string name="amount_title">Enter Amount</string>
+    <string name="amount_limit_info">Offline limit: ₹5,000 per transaction</string>
+    <string name="amount_warning_4500">You\'re near the ₹5,000 limit</string>
+    <string name="amount_error_exceeded">Amount exceeds the ₹5,000 offline limit</string>
+    <string name="amount_error_zero">Please enter a valid amount</string>
+    <string name="amount_ussd_charge">+ ₹0.50 USSD service charge</string>
+    <string name="amount_btn_proceed">Confirm Amount</string>
+
+    <!-- Payment Summary -->
+    <string name="summary_title">Payment Summary</string>
+    <string name="summary_to">Paying To</string>
+    <string name="summary_amount">Amount</string>
+    <string name="summary_ussd_charge">USSD Charge</string>
+    <string name="summary_total">Total Deduction</string>
+    <string name="summary_from_account">From Account</string>
+    <string name="summary_warning">This action will dial *99# on your behalf.</string>
+    <string name="summary_btn_confirm">Confirm &amp; Enter PIN</string>
+
+    <!-- PIN Entry -->
+    <string name="pin_title">Enter UPI PIN</string>
+    <string name="pin_subtitle">Your PIN is passed directly to *99# and never stored</string>
+    <string name="pin_attempt_warning">%1$d attempt(s) remaining</string>
+    <string name="pin_locked">Too many attempts. Try again in %1$d seconds.</string>
+    <string name="pin_biometric_option">Use biometric instead</string>
+
+    <!-- Processing -->
+    <string name="processing_title">Processing Payment</string>
+    <string name="processing_step_dialing">Dialling *99#…</string>
+    <string name="processing_step_connected">Connected to bank</string>
+    <string name="processing_step_sending">Sending payment details</string>
+    <string name="processing_step_confirming">Confirming transaction</string>
+    <string name="processing_do_not_close">Do not close the app</string>
+
+    <!-- Result -->
+    <string name="result_success_title">Payment Sent!</string>
+    <string name="result_failure_title">Payment Failed</string>
+    <string name="result_pending_title">Status Unknown</string>
+    <string name="result_ref_id">Reference ID</string>
+    <string name="result_timestamp">Time</string>
+    <string name="result_btn_done">Back to Home</string>
+    <string name="result_btn_retry">Try Again</string>
+    <string name="result_btn_share">Share Receipt</string>
+    <string name="result_pending_msg">Your transaction was interrupted. Status is unknown. Check your bank SMS.</string>
+
+    <!-- History -->
+    <string name="history_title">Transaction History</string>
+    <string name="history_filter_all">All</string>
+    <string name="history_filter_sent">Sent</string>
+    <string name="history_filter_received">Received</string>
+    <string name="history_filter_failed">Failed</string>
+    <string name="history_empty">No transactions yet</string>
+    <string name="history_monthly_summary">This Month</string>
+    <string name="history_total_sent">Total Sent</string>
+    <string name="history_total_received">Total Received</string>
+    <string name="history_total_charges">USSD Charges</string>
+    <string name="history_export">Export as PDF</string>
+
+    <!-- Contacts Management -->
+    <string name="contacts_title">Contacts</string>
+    <string name="contact_add_title">Add Contact</string>
+    <string name="contact_edit_title">Edit Contact</string>
+    <string name="contact_name_hint">Full name</string>
+    <string name="contact_upi_hint">UPI ID (e.g. name@bank)</string>
+    <string name="contact_mobile_hint">Mobile number</string>
+    <string name="contact_account_hint">Bank account number</string>
+    <string name="contact_ifsc_hint">IFSC code</string>
+    <string name="contact_favourite_label">Mark as Favourite</string>
+    <string name="contact_delete_confirm">Delete this contact?</string>
+    <string name="contact_delete_btn">Delete</string>
+    <string name="contact_cancel">Cancel</string>
+    <string name="contact_save">Save Contact</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language Preference</string>
+    <string name="settings_applock">App Lock</string>
+    <string name="settings_applock_change_pin">Change App PIN</string>
+    <string name="settings_accounts">Linked Accounts</string>
+    <string name="settings_charge_budget">Monthly USSD Budget</string>
+    <string name="settings_charge_budget_hint">₹ monthly budget</string>
+    <string name="settings_charge_warning">80% of your monthly USSD budget used</string>
+    <string name="settings_about">About PayOff</string>
+    <string name="settings_version">Version</string>
+
+    <!-- Permission Rationale (shown before system dialog) -->
+    <string name="perm_call_phone_title">Phone Permission Required</string>
+    <string name="perm_call_phone_msg">PayOff uses this to dial *99# on your behalf. We cannot make regular phone calls — only USSD banking sessions.</string>
+    <string name="perm_phone_state_title">Phone State Permission</string>
+    <string name="perm_phone_state_msg">This lets PayOff detect if your call is interrupted during a payment, so we can warn you to check your bank SMS.</string>
+
+    <!-- Error messages (from PRD §10.3) -->
+    <string name="error_ussd_timeout">The payment timed out. Check your SMS for confirmation before retrying.</string>
+    <string name="error_wrong_pin">Incorrect PIN. You have %1$d attempt(s) remaining.</string>
+    <string name="error_limit_exceeded">Amount exceeds the ₹5,000 offline limit. Use an online UPI app for larger amounts.</string>
+    <string name="error_no_signal">No mobile network detected. Move to an area with signal and try again.</string>
+    <string name="error_interrupted">Your transaction was interrupted. Status is unknown. Check your bank SMS.</string>
+    <string name="error_bank_error">Your bank returned an error. Try again or contact your bank.</string>
+    <string name="error_carrier_blocked">Your carrier doesn\'t support automatic USSD. We\'ll guide you through manually.</string>
+    <string name="error_root_warning">This device appears to be rooted. PayOff will work, but security may be reduced.</string>
+
+    <!-- Carrier Fallback -->
+    <string name="fallback_title">Manual USSD Guide</string>
+    <string name="fallback_subtitle">Follow these steps on your dialler</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी (Hindi)</string>
+    <string name="lang_tamil">தமிழ் (Tamil)</string>
+    <string name="lang_telugu">తెలుగు (Telugu)</string>
+    <string name="lang_kannada">ಕನ್ನಡ (Kannada)</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+    <string name="lang_marathi">मराठी (Marathi)</string>
+    <string name="lang_gujarati">ગુજરાતી (Gujarati)</string>
+    <string name="lang_punjabi">ਪੰਜਾਬੀ (Punjabi)</string>
+    <string name="lang_odia">ଓଡ଼ିଆ (Odia)</string>
+    <string name="lang_assamese">অসমীয়া (Assamese)</string>
+    <string name="lang_malayalam">മലയാളം (Malayalam)</string>
+    <string name="lang_urdu">اُردُو (Urdu)</string>
+</resources>
